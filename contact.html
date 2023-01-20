@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>About pages</title>
+     <link rel="stylesheet" href="css/utiles.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/search.css">
+     <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
-     
+     <nav class="navigation max-width-m1 m-auto my-m">
+          <div class="nav-left">
+               <span>iBlogs</span>
+               <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blogs.html">Blogs</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+               </ul>
+          </div>
+          <div class="nav-right">
+               <form action="/search.html" method="get">
+                    <input type="text" name="Search" placeholder="Atricles name" class="form-control">
+                    <button class="btn">Search</button>
+               </form>
+
+          </div>
+
+     </nav>
+     <div class=" max-width-m2 m-auto ">
+          <hr>
+     </div>
+     <div class="contact  max-width-m2 m-auto my-m">
+          <div class="contact-logo">
+               <h2>
+                    contact us
+               </h2>
+          </div>
+          <div class="contact-content">
+               <div class="contact-left">
+                    <span class="my-m">Location</span>
+                    <div class="contact-location">
+                         <span>kohalpur 2 banke,</span><br>
+                         <span>currently in mdhng a student of computer engineering</span>
+                    </div>
+
+                    <div class="follow">
+
+                         <span class="my-m">Follow us</span>
+                         <span>
+                              <div class="follow-logo">
+                                   <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                                   <a href="https://www.google.com/"><ion-icon name="logo-Google"></ion-icon></a>
+                                   <a href="https://www.linkedin.com/in/bipesh-khadka-833288242/"><ion-icon
+                                             name="logo-Linkedin"></ion-icon></a>
+                                   <a href="https://twitter.com/khadka_bipesh10"><ion-icon
+                                             name="logo-Twitter"></ion-icon></a>
+                                   <a href="https://www.instagram.com/bipesh_khadka.10/"><ion-icon
+                                             name="logo-instagram"></ion-icon></a>
+
+                              </div>
+                         </span>
+
+                    </div>
+               </div>
+               <div class="contact-right">
+                    <div><span class="contact-form">Contact Form</span>
+                         <div class="form-details">
+                              <form action="mailto:bipeshkhadka2003@gmail.com" name="contact form" method="get">
+                                   <div>
+                                        <label for="users_name"></label>
+                                        <input type="text" placeholder="enter your name" id="users_name">
+                                   </div>
+                                   <div>
+                                        <label for="users_email"></label>
+                                        <input type="email" placeholder="enter your vaild email" id="users_email">
+                                   </div>
+                                   <div>
+                                        <label for="users_message"></label>
+                                        <input type="text" class="message" placeholder="enter your message"
+                                             id="users_message">
+                                   </div>
+                                   <div><button class="submit" value="send">Submit</button></div>
+
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+     </div>
+     <div class="footer">
+          Email:bipeshkhadka2003@gmail.com copyrights &copy;iBlogs pages.
+          <div class="footer-logo">
+               <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+               <a href="https://www.google.com/"><ion-icon name="logo-Google"></ion-icon></a>
+               <a href="https://www.linkedin.com/in/bipesh-khadka-833288242/"><ion-icon
+                         name="logo-Linkedin"></ion-icon></a>
+               <a href="https://twitter.com/khadka_bipesh10"><ion-icon name="logo-Twitter"></ion-icon></a>
+               <a href="https://www.instagram.com/bipesh_khadka.10/"><ion-icon name="logo-instagram"></ion-icon></a>
+
+          </div>
+     </div>
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
 </body>
+
 </html>

@@ -8,26 +8,30 @@
      <title>Document</title>
      <link rel="stylesheet" href="css/utiles.css">
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/search.css">
 </head>
 
 <body>
 
-     <nav class="navigation max-width-m1 m-auto">
+     <nav class="navigation max-width-m1 m-auto my-m">
           <div class="nav-left">
                <span>iBlogs</span>
                <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Blogs</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="/blogs.html">Blogs</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                </ul>
           </div>
           <div class="nav-right">
-               <input type="text" name="Search" placeholder="Atricles name" class="form-control">
-               <button class="btn">Search</button>
+               <form action="/search.html" method="get">
+                    <input type="text" name="Search" placeholder="Atricles name" class="form-control">
+                    <button class="btn">Search</button>
+               </form>
+
           </div>
 
      </nav>
-     <div class="content max-width-m2 m-auto ">
+     <div class="content max-width-m2 m-auto my-m ">
           <div class="content-left">
                <h1>The Content of Heaven ! </h1>
                <p>I know that starting a blog can seem overwhelming and intimidating. This free guide is all about
@@ -43,8 +47,92 @@
      <div class=" max-width-m2 m-auto ">
           <hr>
      </div>
+     <div class="quotes max-width-m2 m-auto my-m">
 
-     <div class="article max-width-m2 m-auto ">
+          <div class="quotes-right my-m">
+               <h3> "everything happens for a cause or good reason" </h3>
+               <p>-Shri_Krishna</p>
+          </div>
+
+          <div class="quotes-img">
+               <img src="img/k1.png" alt="lord -Shri_Krishna">
+          </div>
+
+     </div>
+     <div class=" max-width-m2  m-auto">
+          <hr>
+     </div>
+     <div class="home-articles max-width-m2 m-auto my-m">
+          <h3>Featured Articels !</h3>
+          <div class="home-article">
+               <div class="article-img">
+                    <img src="img/a1.jpg" alt="cotent img">
+               </div>
+               <div class="article-content">
+                    <a href="/blogs.html">
+                         <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+                    </a>
+
+                    <span>Authore name</span>
+                    <span>06 janaury | 5 min read</span>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repellendus blanditiis iste
+                         laudantium ipsa minima delectus reiciendis cupiditate praesentium at numquam libero ullam
+                         voluptatum, dolor mollitia quas hic ut, sequi ratione! Libero repudiandae quasi enim!</p>
+               </div>
+
+          </div>
+          <div class="home-article">
+               <div class="article-img">
+                    <img src="img/a2.jpg" alt="cotent img">
+               </div>
+               <div class="article-content">
+                    <a href="/blogs.html">
+                         <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+                    </a>
+                    <span>Authore name</span>
+                    <span>06 janaury | 5 min read</span>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repellendus blanditiis iste
+                         laudantium ipsa minima delectus reiciendis cupiditate praesentium at numquam libero ullam
+                         voluptatum, dolor mollitia quas hic ut, sequi ratione! Libero repudiandae quasi enim!</p>
+               </div>
+
+          </div>
+          <div class="home-article">
+               <div class="article-img">
+                    <img src="img/a1.jpg" alt="cotent img">
+               </div>
+               <div class="article-content">
+                    <a href="/blogs.html">
+                         <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+                    </a>
+                    <span>Authore name</span>
+                    <span>06 janaury | 5 min read</span>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repellendus blanditiis iste
+                         laudantium ipsa minima delectus reiciendis cupiditate praesentium at numquam libero ullam
+                         voluptatum, dolor mollitia quas hic ut, sequi ratione! Libero repudiandae quasi enim!</p>
+               </div>
+
+          </div>
+          <div class="home-article">
+               <div class="article-img">
+                    <img src="img/a2.jpg" alt="cotent img">
+               </div>
+               <div class="article-content">
+                    <a href="/blogs.html" name="blog page">
+                         <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+                    </a>
+                    <span>Authore name</span>
+                    <span>06 janaury | 5 min read</span>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repellendus blanditiis iste
+                         laudantium ipsa minima delectus reiciendis cupiditate praesentium at numquam libero ullam
+                         voluptatum, dolor mollitia quas hic ut, sequi ratione! Libero repudiandae quasi enim!</p>
+               </div>
+
+          </div>
 
      </div>
 

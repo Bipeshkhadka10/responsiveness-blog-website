@@ -1,0 +1,90 @@
+.contact-logo {
+     font-family: var(--font4);
+     font-size: xx-large;
+     margin: 30px 15px;
+}
+
+.contact-content {
+     /* background-color: blue; */
+     height: 110vh;
+     display: flex;
+}
+
+.contact-right {
+     width: 50%;
+     /* background-color: burlywood; */
+}
+
+.contact-left span {
+     position: relative;
+     font-family: var(--font2);
+     font-size: xxx-large;
+     font-weight: bold;
+     margin-right: 30px;
+     /* display: flex;
+     justify-content: center; */
+     top: 11vh;
+     
+
+}
+
+.contact-left {
+     width: 50%;
+}
+.contact-location{
+     margin-top: 20px;
+     margin-bottom: 50px;
+}
+.contact-location span{
+     font-family: var(--font2);
+     font-weight: bold;
+     font-size:large ;
+}
+
+.follow-logo a {
+     color: blue;
+}
+.follow .my-m{
+     margin-top: 17vh;
+}
+
+.contact-form{
+     position: relative;
+     font-family: var(--font2);
+     font-size: xxx-large;
+     font-weight: bold;
+     margin: 30px;
+     top: 11vh;
+}
+.form-details{
+     position: relative;
+     top:15vh ;
+     margin: 10px;
+     padding: 20px;
+}
+.form-details input{
+     font-family: var(--font1);
+     font-size: larger;
+     padding: 0px 5px;
+     width: 30vw;
+     height: 35px;
+     margin: 10px;
+     border: 1px solid black;
+     border-radius: 6px;
+     
+}
+.form-details .message{
+     height: 50vh;
+     text-align:initial;
+     
+}
+.form-details .submit{
+     height: 5vh;
+     width: 6vw;
+     font-family: var(--font2);
+     border: 2px solid black;
+     font-size: larger;
+     font-weight: bold;
+     border-radius: 5px;
+     margin: 20px 20px;
+}
